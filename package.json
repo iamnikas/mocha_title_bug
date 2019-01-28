@@ -1,0 +1,30 @@
+{
+  "name": "title_bug_mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "async-request": "^1.2.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha --timeout 35000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamnikas/mocha_title_bug.git"
+  },
+  "author": "iamnikas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamnikas/mocha_title_bug/issues"
+  },
+  "homepage": "https://github.com/iamnikas/mocha_title_bug#readme"
+}
